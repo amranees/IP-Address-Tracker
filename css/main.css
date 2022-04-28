@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  height: 260px;
+  background-image: url("../images/pattern-bg.png");
+}
+
+.search {
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.search h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.search .search-box {
+  padding: 15px;
+  display: flex;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+}
+.search .search-box input {
+  background-color: transparent;
+  border: none;
+  flex-grow: 1;
+  font-size: 1em;
+}
+.search .search-box input:focus {
+  outline: none;
+}
+.search .search-box .arrow {
+  width: 45px;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  background-color: black;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+}
+.search .search-box .arrow img {
+  height: 10px;
+}
+.search .search-resultes {
+  padding-top: 15px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #2b2b2b;
+}
+.search .search-resultes > div {
+  padding-bottom: 15px;
+}
+.search .search-resultes > div span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #969696;
+  font-size: 0.7em;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=main.css.map */
